@@ -1,5 +1,5 @@
 # This is an OOP to back test a Contrarian trading strategy but can also be quickly tweaked to be a Momentum trading strategy by removing the negative sign on this line of code
-# "data["position"] = -np.sign(data["returns"].rolling(self.window).mean())" (line 39). This is my first implementation of trading costs to see the effect that it has on the performance 
+# "data["position"] = -np.sign(data["returns"].rolling(self.window).mean())" (line 42). This is my first implementation of trading costs to see the effect that it has on the performance 
 # of the strategy. It lead to the performance of the strategy on selected equities from being quite strong to underporforming or being very close to the performance to buy and hold. This
 # OOP was initially created by pulling data from a csv file called intraday, that i got from an online algo trading course. This also uses vectorized backtesting so it is prone to 
 # look ahead bias
